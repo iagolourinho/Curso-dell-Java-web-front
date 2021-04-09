@@ -1,0 +1,9 @@
+<h1>Consulta-filme</h1>
+<form #c="ngForm" (ngSubmit)="onSubmit(c)">
+    <label> Codigo Filme: </label>
+    <br/>
+    <input type="number" name="id" ngModel>
+    <br/>
+
+    <button type="submit">Consultar</button>
+</form>
